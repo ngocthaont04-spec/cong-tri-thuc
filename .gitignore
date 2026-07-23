@@ -1,0 +1,13 @@
+# SQLite local data
+/data/*.db
+/data/*.db-*
+/data/*.sqlite
+/data/*.sqlite3
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
+.vscode/
+.idea/
