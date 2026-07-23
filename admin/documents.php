@@ -106,3 +106,27 @@ if ($savedId > 0) {
 $page_title = 'Tài liệu';
 require_once 'includes/header.php';
 ?>
+<style>
+a.sort-col {
+    color: #1d2327;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    white-space: nowrap;
+}
+a.sort-col:hover { color: #2271b1; }
+a.sort-col.sorted { color: #2271b1; font-weight: 600; }
+a.sort-col .sort-arrow {
+    font-size: 11px;
+    color: #2271b1;
+    min-width: 12px;
+}
+th .sort-hint {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    color: #8c8f94;
+    margin-top: 2px;
+}
+</style>
