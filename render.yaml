@@ -1,0 +1,11 @@
+# Deploy trên Render.com từ GitHub
+# https://render.com — New → Blueprint → chọn repo này
+services:
+  - type: web
+    name: cong-tri-thuc
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: "80"
